@@ -20,13 +20,13 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Compra <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/contatos">contatos <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">produtos</a>
+          <a class="nav-link" href="/produtos">produtos <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contato</a>
+          <a class="nav-link disabled" href="/contatos">teste</a>
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
@@ -190,8 +190,8 @@ Se analisarmos de forma mais profunda, validamos que o streetwear está muito al
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="float-right"><a href="#">sair</a></p>
+    <p>&copy; 2022 - @PauloRicken , Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 

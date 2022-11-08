@@ -18,17 +18,12 @@ Route::get('/', function () {
 
 }) ->name('site.home');
 
-
-
-
-Route::get('/cursos', function () {
-    return view('welcome');
-}) ->name('site.cousers');
-
+Route::get('/produtos', function () {
+    return view('site.produtos');
+}) ->name('site.products');
 
 
 Route::get('/contatos', function () {
-    return view('welcome');
-
+    return view('site.contatos');
 }) ->name('site.contact');
 
