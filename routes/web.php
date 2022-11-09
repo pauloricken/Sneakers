@@ -27,3 +27,11 @@ Route::get('/contatos', function () {
     return view('site.contatos');
 }) ->name('site.contact');
 
+Route::get('/comprar', function () {
+    return view('site.comprar');
+}) ->name('site.contact');
+
+Route::get('/finaliza', function () {
+    return view('site.finaliza');
+}) ->name('site.contact');
+

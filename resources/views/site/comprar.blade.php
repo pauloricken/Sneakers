@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Comprar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,7 +10,7 @@
 <body>
 
 <div class="container mt-3">
-  <h3>Para entrar em contato conosco basta respoder esse simples formulario</h3>
+  <h3>Logo o produto será seu!, responda oque se pede por favor </h3>
   <p>segue abaixo o formulario.</p>
     
   <form action="/" class="was-validated">
@@ -29,63 +29,39 @@
     </div>
 
     <div class="mb-3">
-      <label for="pwd" class="form-label">CPF:</label>
-      <input type="number" class="form-control" id="pwd" placeholder="escreva seu CPF" name="pswd" required>
+      <label for="pwd" class="form-label">endereço:</label>
+      <input type="endereço" class="form-control" id="pwd" placeholder="escreva seu endereço" name="pswd" required>
       <div class="valid-feedback">Valido.</div>
-      <div class="invalid-feedback">Escreva um CPF valido.</div>
+      <div class="invalid-feedback">Escreva um endereço valido.</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="pwd" class="form-label">complemento:</label>
+      <input type="text" class="form-control" id="pwd" placeholder="escreva seu complemento" name="pswd" required>
+      <div class="valid-feedback">Valido.</div>
+      <div class="invalid-feedback">Escreva um complemento valido.</div>
+    </div>
+    <div class="mb-3">
+
+      <label for="pwd" class="form-label">CEP:</label>
+      <input type="CEP" class="form-control" id="pwd" placeholder="escreva seu CEP" name="pswd" required>
+      <div class="valid-feedback">Valido.</div>
+      <div class="invalid-feedback">Escreva um cep valido.</div>
+    </div>
+
+      <label for="pwd" class="form-label"> Cartão de Crédito:</label>
+      <input type="number" class="form-control" id="pwd" placeholder="escreva seu cartão de Crédito" name="pswd" required>
+      <div class="valid-feedback">Valido.</div>
+      <div class="invalid-feedback">Escreva um cartão valido.</div>
     </div>
 
 
-
-    <div class="form-check mb-3">
-      <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
-      <label class="form-check-label" for="myCheck"> Eu li e aceito com os termso e uso.</label>
-      <div class="valid-feedback">valido.</div>
-      <div class="invalid-feedback">Aceite para continuar.</div>
-    </div>
-  <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container mt-3">
+    <div class="container mt-3">
   <h3</h3>
-  <p> clique aqui para sair.</p>
+  
   
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-    sair
+    Comprar
   </button>
 </div>
 
@@ -96,23 +72,20 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">tem certeza que deseja sair ?</h4>
+        <h4 class="modal-title">tem certeza que deseja Comprar ?</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        Obrigado por nós acompanhar até aqui
+        teste
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-       <a href="/">  <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >sair</button> </a>
+       <a href="/finaliza">  <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Comprar</button> </a>
       </div>
 
     </div>
   </div>
 </div>
-
-</body>
-</html>
